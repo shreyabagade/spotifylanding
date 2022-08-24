@@ -1,0 +1,133 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px ;
+    padding-bottom: 60px ;
+    background-color: rgba(25, 20, 15, 1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.placeholder{
+    padding:15px;
+    border-radius: 5px;
+    display: block;
+    box-sizing: border-box;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 350;
+    line-height: 15px;
+    letter-spacing: 10%;
+    font-size: 11px;
+}
+.placeholder:hover{
+    box-shadow: inset 0 0 0 1px;
+    color: black;
+}
+p{  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    margin: 10px;
+}
+label{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 10%;
+
+}
+.join{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    }
+
+.form a{
+    color:#1fc66f;
+    text-decoration:underline;
+}
+button:hover{
+    background-color: #AFE1AF;
+}
+
+button{
+    box-sizing:border-box;
+   display: flex;
+   position: relative;
+    background-color: #1DB954;
+    text-align: center;
+    border-radius: 500px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 2vh 10vh 2vh 10vh;
+    margin-top: 20px;
+    margin-left: 15%;
+    vertical-align: middle;
+    justify-content: center;
+}
+.form{
+    background-color: white;
+    border: 1px black;
+    border-radius: 3px ;
+    width: 500px;
+    height: 550px;
+    padding: 50px;
+    
+}
+.fillform{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: rgba(25, 20, 15, 1);
+
+}
+.inputbox{
+   display: flex;
+   justify-content: center;
+   flex-grow: 1;
+   min-width: 400px;
+   max-width: 750px;   
+}
+  /* for tablet view  */
+}
+@media(max-width:1226px){
+    main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    
+    }
+    .form{
+        margin: 20px;
+    }
+    
+}
+/* for mobile view  */
+@media(max-width:732px){
+    
+    .form{
+        background-color: rgba(26, 20, 18, 1); 
+        border: none;
+        position: relative;
+       }
+        .names{
+        display: none;
+    }
+    main{
+        height: 430px
+    }
+
+/* for mobile  */
+@media(max-width:448px){
+    button{
+        margin-left: 5px;
+        position: relative;
+        top: 30px;
+        padding: 2vh 10vh 2vh 10vh;
+    }
+    .fillform{
+        display: none;
+    }
+
+    
